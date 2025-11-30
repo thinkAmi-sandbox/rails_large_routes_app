@@ -1,4 +1,4 @@
-# rails_routes_app
+# rails_large_routes_app
 
 This is a Rails application that defines various options.
 
