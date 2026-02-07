@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    full_app (0.1.0)
+    mountable_second_app (0.1.0)
       rails (= 8.1.2)
 
 GEM
@@ -238,10 +238,11 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  full_app!
+  mountable_second_app!
   puma
   sprockets-rails
   sqlite3
+  tzinfo-data
 
 BUNDLED WITH
    2.6.9
