@@ -12,7 +12,8 @@ Note that controllers are often not defined.
 
 ## Tested Environment
 
-- Rails 7.1.3.2
+- Ruby 3.4.8
+- Rails 8.1.2
 
 ## Related Blog (Written in Japanese)
 
