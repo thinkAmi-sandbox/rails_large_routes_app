@@ -37,6 +37,16 @@ Rails.application.routes.draw do
     end
   end
 
+  # Include Resources
+  resources :addresses do
+    resources :shops_concern, except: :show, module: :addresses do
+      collection { get :search }
+    end
+    resources :shops_constant, only: :show, module: :addresses do
+      collection { get :search }
+    end
+  end
+
   # Shallow Nesting
   # https://guides.rubyonrails.org/routing.html#shallow-nesting
   # 4 actions edit, show, update, and destroy with id shorten the URL pattern
